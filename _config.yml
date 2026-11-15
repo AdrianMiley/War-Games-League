@@ -1,0 +1,30 @@
+# Site settings
+title: War Games League
+description: Designing a Society where every member has a basic quality of life without having to "work to live"
+
+# GitHub Pages settings
+url: "https://AdrianMiley.github.io/War-Games-League/"
+#baseurl: "/War-Games-League"
+
+remote_theme: just-the-docs/just-the-docs
+#remote_theme: just-the-docs/just-the-docs@v0.5.2
+#theme: just-the-docs
+nav_enabled: true
+heading_anchors: true
+color_scheme: light
+search_enabled: true
+
+plugins:
+  - jekyll-default-layout
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+
+#aux_links:
+#  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+#markdown: kramdown
+
+# Mermaid configuration : Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+mermaid:
+  version: "11.16.0"
+
