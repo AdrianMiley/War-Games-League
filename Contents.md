@@ -9,7 +9,7 @@ This section provides a complete hierarchical set of links to each distinct page
 
 1. Contents (this section)
 2. [Player Registration](PlayerRegistration)
-3. [League Rules](LeagueRules)
+3. [League Rules](LeagueRules/LeagueRulesOverview)
    1. [Challenging Opponents](LeagueRules/ChallengingOpponents)
    2. [Match Scoring](LeagueRules/ScoringMatches)
    3. [League Table](LeagueRules/LeagueTable) 
