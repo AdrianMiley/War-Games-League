@@ -23,18 +23,19 @@ Once a game has been selected for an agreed fixture, it cannot be removed from t
 
 Proficiency ratings are used to assess a player's skill level in a particular game. The ratings are as follows:
 
-| Rating       | Played       | Description                                    | 
-|--------------|--------------|------------------------------------------------|
-| Not Played   | 0 games      | Not played the game but interested in learning | 
-| Beginner     | 1 to 3 games | Player has basic knowledge of the game         | 
-| Intermediate | 3 to 10      | Player has good knowledge of the game          | 
-| Advanced     | 11 to 20     | Player has extensive knowledge of the game     | 
-| Expert       | 20+          | Player is highly skilled in the game           | 
+| Level | Rating | Played       | Description                                    | 
+|-------|--------|--------------|------------------------------------------------|
+| 1     | Not Played   | 0 games      | Not played the game but interested in learning | 
+| 2     | Beginner     | 1 to 3 games | Player has basic knowledge of the game         | 
+| 3     | Intermediate | 3 to 10      | Player has good knowledge of the game          | 
+| 4     | Advanced | 11 to 20     | Player has extensive knowledge of the game     | 
+| 5     | Expert | 20+          | Player is highly skilled in the game           | 
 
 For each game the player must provide a proficiency rating based on their experience and skill level. 
-Ratings are self-assessed but players should be honest to ensure fair competition. 
+Ratings are self-assessed but players should be honest to ensure fair competition.
+The league organiser may review ratings where there is a reasonable concern that they are inaccurate.
 
-The initial proficiency Ratings are updated as games are played and players improve their skills in each game.
+The initial proficiency Ratings are subsequently updated as games are played and players improve their skills in each game.
 
 ##  Example Registration
 
