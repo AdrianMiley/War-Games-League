@@ -7,6 +7,12 @@ nav_order: 0
 
 The Multi-Game Wargaming League is a cross-game competition designed to encourage participation in a variety of tabletop wargames, bring players of different experience levels together and reward both competitive results and willingness to take on challenges.
 
+The league uses...
+- A Swiss-style "challenge" approach with "home" and "away" games
+- ... and a common points structure across all registered games
+- ... and a game-specific proficiency rating system
+- ... and awards points for participation as well as winning games.
+
 The objective of the league is to:
 -    Encourage players to participate in a variety of wargames.
 -    Encourage matches between players of different proficiency levels.
@@ -18,8 +24,3 @@ The objective of the league is to:
 The guiding principle is:
 
     Playing, participating and taking on challenges should be worthwhile, regardless of the final result.
-
-The league uses a home and away format, a game-specific proficiency rating system and a common points structure across all registered games.
-
-The following rules incorporate the agreed decisions on incomplete pairings, championship scoring, opponent allocation and proficiency ratings.
-
