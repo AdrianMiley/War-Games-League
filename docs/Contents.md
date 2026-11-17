@@ -8,7 +8,7 @@ nav_order: 1
 This section provides a complete hierarchical set of links to each distinct page in order to provide quick navigation to a specific document.   
 
 1. Contents (this section)
-2. [Player Registration](PlayerRegistration)
+2. [Player Registration](PlayerRegistration.md)
 3. [League Rules](LeagueRules/LeagueRulesOverview)
    1. [Challenging Opponents](LeagueRules/ChallengingOpponents)
    2. [Match Scoring](LeagueRules/ScoringMatches)
