@@ -2,6 +2,7 @@
 title: Home
 layout: home
 nav_order: 0
+nav_enabled: true
 ---
 #   Multi-Format Games League
 
