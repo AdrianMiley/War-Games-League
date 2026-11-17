@@ -7,9 +7,6 @@ nav_enabled: true
 ---
 #    Match Scoring
 
-1. TOC
-   {:toc}
-
 Every completed match contributes points to the league table.
 
 Scoring category
