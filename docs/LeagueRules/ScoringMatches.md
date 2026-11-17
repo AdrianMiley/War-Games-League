@@ -6,6 +6,9 @@ nav_order: 2
 ---
 #    Match Scoring
 
+1. TOC
+   {:toc}
+
 Every completed match contributes points to the league table.
 
 Scoring category
