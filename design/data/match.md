@@ -21,6 +21,7 @@ classDiagram
     }
     MatchRound --> Player : homePlayer
     MatchRound --* Match
+    MatchRound --> Game : game
     
     class MatchResult {
         <<entity>>
