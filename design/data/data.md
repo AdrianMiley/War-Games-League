@@ -1,17 +1,22 @@
 ```mermaid
+---
+  title: Gaming League Domain Model Overview
+  config:
+    class:
+      hideEmptyMembersBox: true
+---
 classDiagram
-    namespace  Game {
+    namespace  game {
         class Game {
+            <<entity>>
         }
     }
 
-    namespace Player {
+    namespace player {
         class Player {
             <<entity>>
         }
         class RegisteredGame {
-            Proficiency initialProficiency
-            Proficiency currentProficiency
         }
     }
 
@@ -20,8 +25,8 @@ classDiagram
             <<entity>>
         }
     }
-
-    namespace League {
+        
+    namespace league {
         class LeagueTable {
             <<entity>>
         }
@@ -29,4 +34,10 @@ classDiagram
         class LeaguePosition {
         }
     }
+    LeagueTable *-- "1..*" LeaguePosition : position
+    LeaguePosition --> "1" Player : player
+    Match --> Player : homePlayer
+    Match --> Player : awayPlayer
+    Player *-- RegisteredGame : registeredGames
+    RegisteredGame --> Game : game
 ```
