@@ -17,12 +17,13 @@ classDiagram
 
     class RegisteredGame {
         String edition
-        Integer gamesPlayed
+        Integer timesPlayed := 0
         Proficiency initialProficiency
         Proficiency currentProficiency
+        Boolean willPlay := true
     }
 
-    Player *-- RegisteredGame : registeredGames
+    Player *-- "1..*" RegisteredGame : registeredGames
     RegisteredGame --> Game : game
 
     class Proficiency {

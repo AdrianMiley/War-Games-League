@@ -36,8 +36,7 @@ classDiagram
     }
     LeagueTable *-- "1..*" LeaguePosition : position
     LeaguePosition --> "1" Player : player
-    Match --> Player : homePlayer
-    Match --> Player : awayPlayer
+    Match --> Player : participants
     Player *-- RegisteredGame : registeredGames
     RegisteredGame --> Game : game
 ```

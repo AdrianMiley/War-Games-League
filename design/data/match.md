@@ -28,5 +28,5 @@ classDiagram
         Integer pointsScored
     }
     MatchResult --> Player : player
-    MatchResult --* MatchRound
+    MatchResult --> MatchRound
 ```
