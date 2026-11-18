@@ -1,5 +1,13 @@
 ```mermaid
+---
+  title: Player Domain Model
+  config:
+    class:
+      hideEmptyMembersBox: true
+---
 classDiagram
+%%    namespace "player"
+%%    import "design/data/game/Game" as Game
     class Player {
         <<entity>>
         String ID <<key>>
@@ -8,6 +16,8 @@ classDiagram
     }
 
     class RegisteredGame {
+        String edition
+        Integer gamesPlayed
         Proficiency initialProficiency
         Proficiency currentProficiency
     }
@@ -17,10 +27,10 @@ classDiagram
 
     class Proficiency {
         <<enumeration>>
-        NotPlayed
-        Beginner
-        Intermediate
-        Advanced
-        Expert
+        1 "NotPlayed"
+        2 "Beginner"
+        3 "Intermediate"
+        4 "Advanced"
+        5 "Expert"
     }
 ```
