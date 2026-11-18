@@ -1,5 +1,12 @@
 ```mermaid
+---
+  title: League Domain Model
+  config:
+    class:
+      hideEmptyMembersBox: true
+---
 classDiagram
+%%    namespace "league"
     class LeagueTable {
         <<entity>>
     }
