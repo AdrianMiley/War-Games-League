@@ -6,39 +6,42 @@
       hideEmptyMembersBox: true
 ---
 classDiagram
+    direction LR
 %%    namespace "match"
 %%    import "design/data/game/Game" as Game
 %%    import "design/data/player/Player" as Player
-    
+%%  ToDo: Add more detailed descriptions for each class and attribute
+%%  ToDo: Decide how best to represent the result of a Multi-Player Match
     class Match {
         <<entity>>
-        Integer numberOfPlayers
-        Date matchDate
     }
-    class TwoPlayerMatch {
-        MatchOutcome  outcome
-        Integer homePlayerScore
-        Integer awayPlayerScore
+    Match --> "1..*" Player : participants
+
+    class MatchRound {
     }
-    class MultiPlayerMatch {
-    }
-    class MultiPlayerOutcome {
+    MatchRound --* Match
+    MatchRound --> Game : game
+    MatchRound --> Player : homePlayer
+
+    class MatchResult {
         <<entity>>
         Integer pointsScored
+        Boolean isWinner
     }
+    MatchResult --> Player : player
+    MatchResult --* MatchRound
 
-    Match <|-- TwoPlayerMatch
-    Match <|-- MultiPlayerMatch
-    Match --> Player : homePlayer
-    Match --> "1..*" Player : otherPlayers
-    Match --> Game : game
-    MultiPlayerMatch *-- "1..*" MultiPlayerOutcome : matchOutcomes
-    MultiPlayerOutcome --> Player : player
+%%    class MatchOutcome {
+%%        <<enumeration>>
+%%        HomeWin
+%%        AwayWin
+%%        Draw
+%%    }
 
-    class MatchOutcome {
-        <<enumeration>>
-        HomeWin
-        AwayWin
-        Draw
-    }
 ```
+
+| Class       | Type   | Description                                              |
+|-------------|--------|----------------------------------------------------------|
+| Match       | Entity | An arrangement between two or more players to play Games |
+| MatchRound  | Entity |                                                          |
+| MatchResult | Entity |                                                          |
