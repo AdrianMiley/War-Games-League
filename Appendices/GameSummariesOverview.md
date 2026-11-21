@@ -1,6 +1,7 @@
 ---
 title: Game Summaries
 layout: default
+parent: Appendices
 nav_order: 9
 ---
 #    Game Summaries

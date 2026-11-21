@@ -1,7 +1,8 @@
 ---
 title: Player Registration
 layout: default
-nav_order: 2
+parent: League Rules
+nav_order: 1
 ---
 # Player Registration
 

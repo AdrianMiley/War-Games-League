@@ -9,9 +9,10 @@ nav_enabled: true
 This section provides a complete hierarchical set of links to each distinct page in order to provide quick navigation to a specific document.   
 
 1. Contents (this section)
-2. [Player Registration](PlayerRegistration.md)
-3. [League Rules](LeagueRules/LeagueRulesOverview)
-   1. [Challenging Opponents](LeagueRules/ChallengingOpponents)
-   2. [Match Scoring](LeagueRules/ScoringMatches)
-   3. [League Table](LeagueRules/LeagueTable) 
-3. [Game Summaries](GameSummaries/GameSummariesOverview)
+2. [League Rules](LeagueRules/LeagueRulesOverview)
+   1. [Player Registration](LeagueRules/PlayerRegistration.md)
+   2. [Challenging Opponents](LeagueRules/ChallengingOpponents)
+   3. [Match Scoring](LeagueRules/ScoringMatches)
+   4. [League Table](LeagueRules/LeagueTable) 
+3. Appendices
+   1. [Game Summaries](Appendices/GameSummariesOverview)

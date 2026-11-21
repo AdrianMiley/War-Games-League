@@ -2,7 +2,7 @@
 title: League Table
 layout: default
 parent: League Rules
-nav_order: 3
+nav_order: 4
 ---
 #   League Table
 
