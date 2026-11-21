@@ -9,17 +9,17 @@ nav_enabled: true
 
 Every completed match contributes points to the league table.
 
-The maximum normal score for an individual match is 12 points broken down as follows...
+The maximum normal score for an individual match is 10 points broken down as follows...
 
 | Game Result       | Min Points | Max Points |
 |:------------------|:-----------|:-----------|
-| Participation     | 3          | 3          |
+| Participation     | 1          | 1          |
 | Proficiency Bonus | 0          | 4          |
 | Match Result      | 1          | 5          |
 
 ## Participation Points
 
-Both players receive 3 points for completing a match, regardless of the result. 
+All participating players receive 1 point for completing a match, regardless of the result. 
 
 This is simply to encourage players to participate in more matches and to reward them for doing so.
 
@@ -73,13 +73,13 @@ Player A (Advanced) plays Player B (Beginner) and scores a Decisive Win then the
 
 | Category      | Player A | Player B | Note                                                        |
 |---------------|----------|----------|-------------------------------------------------------------|
-| Participation | 3        | 3        |                                                             |
+| Participation | 1        | 1        |                                                             |
 | Result        | 5        | 1        |                                                             |
 | Proficiency   | 2        | 2        | Advanced (4) minus Beginner (2) equals 2 Proficiency Points |
 |               |          |          |                                                             |
-| Total         | 10       | 6        |                                                             |
+| Total         | 8        | 4        |                                                             |
 
-Player A receives 10 points but Player B also receives 6 points despite losing the game decisively.
+Player A receives 8 points but Player B also receives 4 points despite losing the game decisively.
 
 This is an important feature of the league: 
 
@@ -96,13 +96,13 @@ Four players play a game where Player A is Advanced, Players B and C are Interme
 | C      | Beginner     | 70    |
 | D      | Novice       | 40    |
 
-| Category      | Player A | Player B | Player C | Player D | Note |
-|---------------|----------|----------|----------|----------|-----|
-| Participation | 3        | 3        | 3        | 3        | (1) |
-| Result        | 4        | 2        | 1        | 1        | (2) & (3) |
-| Proficiency   | 4        | 4        | 4        | 4        | (4) |
-|               |          |          |          |          |     |
-| Total         | 11       | 9        | 8        | 8        |     |
+| Category      | Player A | Player B | Player C | Player D | Note      |
+|---------------|----------|----------|----------|----------|-----------|
+| Participation | 1        | 1        | 1        | 1        |           |
+| Result        | 4        | 2        | 1        | 1        | (1) & (2) |
+| Proficiency   | 4        | 4        | 4        | 4        | (3)       |
+|               |          |          |          |          |           |
+| Total         | 9        | 7        | 6        | 6        |           |
 
 1. All players receive 3 points for participation.
 2. Player A scored the most points so is the winner but only beat the next highest scorer by 10 points (10%) so it's a Close Win (4 points)
