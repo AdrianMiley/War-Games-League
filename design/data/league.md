@@ -1,3 +1,11 @@
+---
+title: League Table
+layout: default
+parent: Data Domain Models
+nav_order: 5
+---
+#   League Table Domain Model
+
 ```mermaid
 ---
   title: League Domain Model

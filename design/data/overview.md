@@ -1,3 +1,11 @@
+---
+title: Integrated Domain Model Overview
+layout: default
+parent: Application Design
+nav_order: 1
+---
+#   Gaming League Integrated Domain Model Overview
+
 ```mermaid
 ---
   title: Gaming League Domain Model Overview

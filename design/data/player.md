@@ -1,3 +1,11 @@
+---
+title: Player
+layout: default
+parent: Data Domain Models
+nav_order: 3
+---
+#    Player Domain Model
+
 ```mermaid
 ---
   title: Player Domain Model

@@ -1,3 +1,11 @@
+---
+title: Game
+layout: default
+parent: Data Domain Models
+nav_order: 2
+---
+#   Game Domain Model
+
 ```mermaid
 ---
   title: Game Domain Model
@@ -24,8 +32,12 @@ classDiagram
         Integer minimumPlayers
         Integer maximumPlayers
     }
-
+%%    class BaseGame {}
+%%    class Expansion {}
     Game <|-- BoardGame 
     Game <|-- CardGame 
-    Game <|-- WarGame 
+    Game <|-- WarGame
+    BoardGame <|-- BaseGame
+    BoardGame <|-- Expansion 
+    Expansion --> BaseGame : baseGame
 ```
