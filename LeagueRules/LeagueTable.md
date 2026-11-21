@@ -6,10 +6,6 @@ nav_order: 4
 ---
 #   League Table
 
-Player
-Matches Played
-Win
-Draw 
-Loss
-Bonus Points
-Total Points
+| Position | Player | Matches Played | Win | Draw | Loss | Bonus Points | Total Points |
+|:---------|:-------|:---------------|:----|:-----|:-----|:-------------|:-------------|
+

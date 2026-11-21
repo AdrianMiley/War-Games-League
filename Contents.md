@@ -14,5 +14,6 @@ This section provides a complete hierarchical set of links to each distinct page
    2. [Challenging Opponents](LeagueRules/ChallengingOpponents)
    3. [Match Scoring](LeagueRules/ScoringMatches)
    4. [League Table](LeagueRules/LeagueTable) 
+   5. [Awards](LeagueRules/Awards)
 3. Appendices
    1. [Game Summaries](Appendices/GameSummariesOverview)
