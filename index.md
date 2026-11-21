@@ -1,5 +1,5 @@
 ---
-title: Home
+title: League Rules
 layout: home
 nav_order: 0
 nav_enabled: true
