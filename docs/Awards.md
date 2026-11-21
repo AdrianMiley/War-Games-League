@@ -1,10 +1,10 @@
 ---
-title: Awards
+title: Additional Awards
 layout: default
 parent: Gaming League Rules
 nav_order: 5
 ---
-#   Awards
+#   Additional Awards
 
 Apart from the obvious recognition of winning the league, there are a number of other awards that could be given to players for their performance during the season. 
 
