@@ -1,5 +1,5 @@
 ---
-title: League Table
+title: Awards
 layout: default
 parent: League Rules
 nav_order: 5
