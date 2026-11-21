@@ -25,11 +25,3 @@ The objective of the league is to:
 The guiding principle is:
 
     Playing, participating and taking on challenges should be worthwhile, regardless of the final result.
-
-##   Contents
-
-1. [Player Registration](docs/PlayerRegistration.md)
-2. [Challenging Opponents](docs/ChallengingOpponents.md)
-3. [Match Scoring](docs/ScoringMatches.md)
-4. [League Table](docs/LeagueTable.md)
-5. [Awards](docs/Awards.md)
