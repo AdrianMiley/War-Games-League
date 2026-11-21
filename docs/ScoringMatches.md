@@ -1,7 +1,7 @@
 ---
 title: Match Scoring
 layout: default
-parent: League Rules
+parent: Gaming League Rules
 nav_order: 3
 nav_enabled: true
 ---

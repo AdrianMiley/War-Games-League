@@ -1,7 +1,7 @@
 ---
 title: Challenging Opponents
 layout: default
-parent: League Rules
+parent: Gaming League Rules
 nav_order: 2
 ---
 #    Challenging Opponents

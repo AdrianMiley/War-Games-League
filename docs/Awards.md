@@ -1,7 +1,7 @@
 ---
 title: Awards
 layout: default
-parent: League Rules
+parent: Gaming League Rules
 nav_order: 5
 ---
 #   Awards

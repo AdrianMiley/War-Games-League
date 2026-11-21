@@ -1,5 +1,5 @@
 ---
-title: League Rules
+title: Gaming League Rules
 layout: home
 nav_order: 0
 nav_enabled: true
