@@ -28,8 +28,8 @@ The guiding principle is:
 
 ##   Contents
 
-1. [Player Registration](LeagueRules/PlayerRegistration.md)
-2. [Challenging Opponents](LeagueRules/ChallengingOpponents)
-3. [Match Scoring](LeagueRules/ScoringMatches)
-4. [League Table](LeagueRules/LeagueTable)
-5. [Awards](LeagueRules/Awards)
+1. [Player Registration](docs/PlayerRegistration.md)
+2. [Challenging Opponents](docs/ChallengingOpponents.md)
+3. [Match Scoring](docs/ScoringMatches.md)
+4. [League Table](docs/LeagueTable.md)
+5. [Awards](docs/Awards.md)

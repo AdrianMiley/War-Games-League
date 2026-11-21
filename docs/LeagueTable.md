@@ -8,5 +8,5 @@ nav_order: 4
 
 | Position | Player | Matches Played | Won | Drawn | Lost | Bonus Points | Total Points |
 |:---------|:-------|:---------------|:----|:------|:-----|:-------------|:-------------|
-| 1        |        | 0              | 0   | 0     | 0    | 0            | 0            |
+| 1        | Bob    | 0              | 0   | 0     | 0    | 0            | 0            |
 
