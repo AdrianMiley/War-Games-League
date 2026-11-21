@@ -36,6 +36,12 @@ For each game the player must provide a proficiency rating based on their experi
 Ratings are self-assessed but players should be honest to ensure fair competition.
 The league organiser may review ratings where there is a reasonable concern that they are inaccurate.
 
+The point about the Proficiency Rating is not about "differences in ability" but "differences in familiarity" with the rules of a game.
+Some (most) games need to be played multiple times before someone becomes expert in the rules (even if they are still rubbish at the game itself) so this intends to capture that somehow.
+
+>    Design Note: Board Games tend to have less of a learning curve that War Games so maybe the number of games for a Proficiency Rating can be lower depending on type of game. 
+>    We could even refine further using the Board Games Geek Difficulty Rating.
+
 The initial proficiency Ratings are subsequently updated as games are played and players improve their skills in each game.
 
 ##  Example Registration

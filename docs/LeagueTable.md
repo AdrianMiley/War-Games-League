@@ -17,6 +17,8 @@ nav_order: 4
 Apart from the obvious recognition of winning the league, there are a number of other awards that could be given to players for their performance during the season.
 
 Some ideas for additional awards might be:
+- Most successful War-Gamer
+- Most successful Board-Gamer
 - Most Proficient Player - The player with the highest proficiency rating at the end of the season.
 - Most Improved Player - The player with the greatest increase in proficiency rating over the course of the season.
 - Fair Play Award - Given to the player who demonstrates the best sportsmanship throughout the season.
