@@ -8,13 +8,19 @@ nav_order: 4
 
 ##   League Table
 
+The League Table is generated from the results of matches played over a season.
+
 | Position | Player | Matches Played | Won | Drawn | Lost | Bonus Points | Total Points |
 |:---------|:-------|:---------------|:----|:------|:-----|:-------------|:-------------|
 | 1        | Bob    | 0              | 0   | 0     | 0    | 0            | 0            |
 
+A season should be long enough (ideally a calendar year) to provide sufficient opportunities for game but possibly with some interim awards to keep interest up. 
+A short season makes some statistics like "Most Improved Player" or "Most Versatile Player" meaningless if the data-set is too small.
+
 ##   Additional Awards
 
 Apart from the obvious recognition of winning the league, there are a number of other awards that could be given to players for their performance during the season.
+Additional Awards are all based on statistics that can be calculated from results combined with other registered player data.
 
 Some ideas for additional awards might be:
 - Most successful War-Gamer
