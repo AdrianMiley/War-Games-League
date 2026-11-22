@@ -78,15 +78,16 @@ The initial Proficiency Ratings are subsequently updated as games are played and
 ### Board Games
 
 For Board Games the Proficiency Rating is based on the number of times the Player has played a game and the complexity of that game as defined on sites such as Board Games Geek.
-Board Games Geek classifies games using a numeric range between Lightweight (1) through Mediumweight (3) up to Heavyweight (5). This is simplified into Simple (BGG <2), Intermediate (BGG 2 or 3) and Complex (BGG >4).
+Board Games Geek classifies games using a numeric range between Lightweight (1) through Mediumweight (3) up to Heavyweight (5). 
+This is simplified into three value : Simple (BGG <2), Intermediate (BGG 2 or 3) and Complex (BGG >4).
 
-| Level | Rating       | Simple  | Intermediate | Complex  |
-|-------|--------------|---------|--------------|----------|
-| 1     | Novice       | 0 games | 0 games      | 0 games  |
-| 2     | Beginner     | 1       | 1 to 3       | 1 to 5   |
-| 3     | Intermediate | 2 to 4  | 4 to 8       | 6 to 12  |
-| 4     | Advanced     | 5 to 10 | 9 to 14      | 13 to 20 |
-| 5     | Expert       | 10+     | 15+          | 20+      |
+| Level | Rating       | Lightweight | Mediumweight | Heavyweight |
+|-------|--------------|-------------|--------------|-------------|
+| 1     | Novice       | 0 games     | 0 games      | 0 games     |
+| 2     | Beginner     | 1           | 1 to 3       | 1 to 5      |
+| 3     | Intermediate | 2 to 4      | 4 to 8       | 6 to 12     |
+| 4     | Advanced     | 5 to 10     | 9 to 14      | 13 to 20    |
+| 5     | Expert       | 10+         | 15+          | 20+         |
 
 >   Design Note: This is an arbitrary set of values and may be subject to refinement  
 
@@ -102,20 +103,22 @@ Consequently, the complexity of a Miniatures Game can be estimated from the prod
 
     Complexity = Number of Unit Types * Number of Factions
 
-| Rating       | Complexity | Example                     |
-|--------------|------------|-----------------------------|
-| Simple       | 0 to 10    | Lion Rampant, Saga, Pillage |
-| Intermediate | 11 to 100  |                             |
-| Complex      | over 100   | Bolt Action, Kings of War   |
+We can then map that Complexity to a Game Complexity Rating using a simple mapping of the resulting value.
 
-The Proficiency Level for each Complexity Level is then... 
+| Rating       | Complexity | Example                        |
+|--------------|------------|--------------------------------|
+| Lightweight  | 0 to 24    | Lion Rampant, Pikeman's Lament |
+| Mediumweight | 25 to 100  | Saga, Pillage                  |
+| Heavyweight  | over 100   | Bolt Action, Kings of War      |
 
-| Level | Rating       | Simple  | Intermediate | Complex  |
-|-------|--------------|---------|--------------|----------|
-| 1     | Novice       | 0 games | 0 games      | 0 games  |
-| 2     | Beginner     | 1       | 1 to 3       | 1 to 5   |
-| 3     | Intermediate | 2 to 4  | 4 to 8       | 6 to 12  |
-| 4     | Advanced     | 5 to 10 | 9 to 14      | 13 to 20 |
-| 5     | Expert       | 10+     | 15+          | 20+      |
+The Proficiency Level for each Game Complexity Rating is then... 
+
+| Level | Rating       | Lightweight | Mediumweight | Heavyweight |
+|-------|--------------|-------------|--------------|-------------|
+| 1     | Novice       | 0 games     | 0 games      | 0 games     |
+| 2     | Beginner     | 1           | 1 to 3       | 1 to 5      |
+| 3     | Intermediate | 2 to 4      | 4 to 8       | 6 to 12     |
+| 4     | Advanced     | 5 to 10     | 9 to 14      | 13 to 20    |
+| 5     | Expert       | 10+         | 15+          | 20+         |
 
 >   Design Note: This is an arbitrary set of values and may be subject to refinement
