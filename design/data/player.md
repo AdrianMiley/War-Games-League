@@ -20,6 +20,8 @@ classDiagram
         <<entity>>
         String ID <<key>>
         String name
+        String contactDetails
+        String membershipNumber <<optional>>
         Date dateRegistered
     }
 
@@ -28,7 +30,6 @@ classDiagram
         Integer timesPlayed := 0
         Proficiency initialProficiency
         Proficiency currentProficiency
-        Boolean willPlay := true
     }
 
     Player *-- "1..*" RegisteredGame : registeredGames
@@ -36,10 +37,10 @@ classDiagram
 
     class Proficiency {
         <<enumeration>>
-        1 "NotPlayed"
-        2 "Beginner"
-        3 "Intermediate"
-        4 "Advanced"
-        5 "Expert"
+        1 : "Novice"
+        2 : "Beginner"
+        3 : "Intermediate"
+        4 : "Advanced"
+        5 : "Expert"
     }
 ```

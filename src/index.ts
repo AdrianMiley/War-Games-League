@@ -1,0 +1,10 @@
+export { Match } from "./asm/wgl/match/Match";
+export { MatchRound } from "./asm/wgl/match/MatchRound";
+export { MatchResult } from "./asm/wgl/match/MatchResult";
+export { MatchManager } from "./asm/wgl/match/MatchManager";
+export { MatchRoundManager } from "./asm/wgl/match/MatchRoundManager";
+export { MatchResultManager } from "./asm/wgl/match/MatchResultManager";
+export { LeagueTable } from "./asm/wgl/league/LeagueTable";
+export { LeaguePosition } from "./asm/wgl/league/LeaguePosition";
+export { LeagueTableManager } from "./asm/wgl/league/LeagueTableManager";
+export { LeaguePositionManager } from "./asm/wgl/league/LeaguePositionManager";

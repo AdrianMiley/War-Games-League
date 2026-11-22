@@ -20,16 +20,11 @@ classDiagram
     class Match{
         <<entity>>
         String ID <<key>>
-        Date dateScheduled
-    }
-    Match --> "2..*" Player : participants
-    
-    class MatchRound{
+        Integer round
         Date datePlayed        
     }
-    MatchRound --> Player : homePlayer
-    MatchRound --* Match
-    MatchRound --> Game : game
+    Match --> Game : game
+    Match --> Player : challenger
     
     class MatchResult {
         <<entity>>

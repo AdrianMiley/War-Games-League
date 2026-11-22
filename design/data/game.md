@@ -23,21 +23,17 @@ classDiagram
     }
     class Game {
         <<entity>>
-        String ID 
+        String ID <<key>>
         GameType type
         String name
-        String description
+        GameComplexity complexity <<optional>>
+        Integer maximumPlayers := 2
     }
-    class BoardGame {
-        Integer minimumPlayers
-        Integer maximumPlayers
-    }
-%%    class BaseGame {}
-%%    class Expansion {}
-    Game <|-- BoardGame 
-    Game <|-- CardGame 
-    Game <|-- WarGame
-    BoardGame <|-- BaseGame
-    BoardGame <|-- Expansion 
-    Expansion --> BaseGame : baseGame
+    Game --> "0..1" Game : expands 
+
+    class GameComplexity {
+        1 : "Simple"
+        2 : "Intermediate"
+        3 : "Complex"
+    } 
 ```
