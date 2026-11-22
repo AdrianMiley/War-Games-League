@@ -6,14 +6,17 @@ nav_order: 1
 ---
 #   Player Registration
 
+All Players playing in the Gaming League must be registered before they can play a game.
+However **Players can registers after a season starts**.
+
 ##  Minimum Registration
 
 The minimum registration requirements are...
 - The Player's Name
-- Contact details (so that other PLayer's can arrange a game)
+- Contact details (so that other Player's can arrange a game)
 - Club Membership Number if applicable
 
-## Game Registration
+## Registered Games
 
 Every player must register the games they are willing and able or interested in playing. 
 These will be the games that they will be able to play in the league and the list from which an opponent must select a game for an agreed fixture.
@@ -27,16 +30,16 @@ Initially registering games is not mandatory and Players may also register addit
 
 Once a game has been selected for an agreed fixture, it cannot be removed from the player's registration until that fixture has been completed.
 
-###  Example Registration
+##  Example Registration
 
     Name: John Smith
     Contact: Facebook
     Membership Number: 1000
     Games Registered:
         Agricola (2016) played 2 times
-        Pandemic played over 10 times
+        Pandemic 
         Lion Rampant (1st Edition) played 1 time
-        Lion Rampant (2nd) played 10 times
+        Lion Rampant (2nd)
         Dragon Rampant (1st) not played
         Dragon Rampant (2nd) not played
         Kings of War (2nd) played over 20 times
