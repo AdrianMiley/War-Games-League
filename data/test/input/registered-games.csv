@@ -1,0 +1,11 @@
+playerID,gameID,edition,timesPlayed,initialProficiency,currentProficiency,willPlay
+P001,G001,2nd Edition,8,3,4,true
+P001,G002,2023 Edition,3,2,3,true
+P001,G003,Revised Edition,5,3,3,true
+P002,G001,2nd Edition,2,2,2,true
+P002,G002,2023 Edition,12,4,5,true
+P002,G003,Revised Edition,4,3,3,true
+P003,G002,2023 Edition,6,3,4,true
+P003,G003,Revised Edition,1,2,2,true
+P004,G001,2nd Edition,15,4,5,true
+P004,G003,Revised Edition,9,4,4,true
