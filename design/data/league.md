@@ -17,16 +17,21 @@ classDiagram
 %%    namespace "league"
     class LeagueTable {
         <<entity>>
+        String name
+        Integer season
+        Date startDate
+        Date endDate
     }
 
     class LeaguePosition {
         <<entity>>
         Integer position
-        Integer won
+        Integer decisiveWin
+        Integer closeWin
         Integer drawn
-        Integer lost
+        Integer closeLoss
+        Integer decisiveLoss
         Integer proficiencyPoints
-        Integer handicapPoints
         Integer totalPoints
     }
     LeagueTable *-- "1..*" LeaguePosition : position

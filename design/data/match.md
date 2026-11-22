@@ -20,16 +20,29 @@ classDiagram
     class Match{
         <<entity>>
         String ID <<key>>
-        Integer round
-        Date datePlayed        
+        Date datePlayed    
+        MatchStatus status := Arranged
     }
     Match --> Game : game
-    Match --> Player : challenger
+    Match --> "2..*" Player : participants
     
     class MatchResult {
-        <<entity>>
         Integer pointsScored
     }
+    Match *-- MatchResult : results
     MatchResult --> Player : player
-    MatchResult --> MatchRound
+    
+    class MatchStatus {
+        <<enumeration>>
+        Arranged
+        Played
+        Completed
+    }
 ```
+Validation Rules:
+-    Each Match::participants::ID is unique 
+-    Each Match::results::ID is unique
+-    Each Match::results::player is in Match.participants
+-    When number of Match::results is 0 then Match.status is Arranged
+-    When number of Match::results is greater than 0 then  Match.status is Played
+-    When number of Match::results equals number of Match::participants then Match.status is Completed.
