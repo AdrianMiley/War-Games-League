@@ -1,7 +1,7 @@
 ---
 title: Game
 layout: default
-parent: Data Domain Models
+parent: Integrated Domain Model
 nav_order: 2
 ---
 #   Game Domain Model
@@ -28,6 +28,7 @@ classDiagram
         String name
         GameComplexity complexity <<optional>>
         Integer maximumPlayers := 2
+        Boolean hasVariants := false
     }
     Game --> "0..1" Game : expands 
 

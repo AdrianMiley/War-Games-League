@@ -1,7 +1,7 @@
 ---
 title: Match
 layout: default
-parent: Data Domain Models
+parent: Integrated Domain Model
 nav_order: 4
 ---
 #   Match Domain Model 

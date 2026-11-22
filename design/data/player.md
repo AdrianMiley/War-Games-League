@@ -1,7 +1,7 @@
 ---
 title: Player
 layout: default
-parent: Data Domain Models
+parent: Integrated Domain Model
 nav_order: 3
 ---
 #    Player Domain Model

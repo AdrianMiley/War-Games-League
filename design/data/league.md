@@ -1,7 +1,7 @@
 ---
 title: League Table
 layout: default
-parent: Data Domain Models
+parent: Integrated Domain Model
 nav_order: 5
 ---
 #   League Table Domain Model

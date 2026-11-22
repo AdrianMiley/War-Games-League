@@ -1,5 +1,5 @@
 ---
-title: Integrated Domain Model Overview
+title: Integrated Domain Model
 layout: default
 parent: Application Design
 nav_order: 1
