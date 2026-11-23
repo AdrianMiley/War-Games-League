@@ -26,15 +26,17 @@ classDiagram
         String ID <<key>>
         GameType type
         String name
-        GameComplexity complexity <<optional>>
+        GameComplexity complexity := Unspecified
+        Integer minimumPlayers := 2
         Integer maximumPlayers := 2
         Boolean hasVariants := false
     }
     Game --> "0..1" Game : expands 
 
     class GameComplexity {
-        1 : "Simple"
-        2 : "Intermediate"
-        3 : "Complex"
+        0 : "Unspecified"
+        1 : "Lightweight"
+        2 : "Mediumweight"
+        3 : "Heavyweight"
     } 
 ```
