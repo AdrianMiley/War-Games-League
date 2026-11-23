@@ -7,7 +7,7 @@ nav_order: 1
 #   Build Reporting
 
 include instructions defined in [GeneralBuildInstructions.md](GeneralBuildInstructions.md)
-depends on [BuildResultsDatabase.md](BuildResultsDatabase.md)
+depends on [BuildResultsDatabase.md](BuildLeagueDatabase.md)
 
 each report can be persisted as HTML, CSV or Markdown
 
