@@ -1,0 +1,8 @@
+Game : Agricola
+Status : Arranged
+Date Played: 2026-09-01
+Participants:
+    John Smith
+    Bob Martin
+    Carol Jones
+    David Singh

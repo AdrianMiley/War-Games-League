@@ -1,0 +1,7 @@
+Game : Agricola
+Date Played: 2026-09-01
+Results:
+    John Smith  , 100
+    Bob Martin  , 90
+    Carol Jones , 80
+    David Singh , 70
