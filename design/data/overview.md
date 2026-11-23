@@ -1,7 +1,7 @@
 ---
 title: Integrated Domain Model
 layout: default
-parent: Application Design
+parent: Games League Design
 nav_order: 1
 ---
 #   Gaming League Integrated Domain Model Overview
