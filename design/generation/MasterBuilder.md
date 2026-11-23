@@ -8,8 +8,8 @@ nav_order: 1
 
 These are the instructions for building the entire application from the component build files in the correct dependency order.
 
+- [BuildResultsDatabase.md](BuildLeagueDatabase.md)
 - [BuildPlayerRegistration.md](BuildPlayerRegistration.md)
-- [BuildResultsDatabase.md](BuildResultsDatabase.md)
 - [BuildReporting.md](BuildReporting.md)
 - [BuildUserInterface.md](BuildUserInterface.md)
 
