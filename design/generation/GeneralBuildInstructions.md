@@ -1,3 +1,11 @@
+---
+title:  Technical Requirements
+layout: default
+parent: Master Builder
+nav_order: 98
+---
+#   Technical Requirements
+
 All data is stored in individual CSV files.
 All software source code and data structures will be in Javascript and Typescript  
 

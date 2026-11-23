@@ -1,3 +1,11 @@
+---
+title:  Build Database
+layout: default
+parent: Master Builder
+nav_order: 1
+---
+#   Build Database
+
 include instructions defined in [GeneralBuildInstructions.md](GeneralBuildInstructions.md)
 
 For each Business Entity there will be a matching Business Entity Manager taht is responsible for ensuring legal operations are performed on the Business Entity
