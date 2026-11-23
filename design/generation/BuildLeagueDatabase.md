@@ -13,7 +13,6 @@ This Business Entity Manager has the following standard operations...
 - create(BusinessEntity) operation 
 - delete(BusinessEntity) operation that removes a specific instance of the class from the
 - save() operation that writes the database to file
-On startup the 
  
 For each Business Entity there will be...
 - get() and set() functions for each Data Attribute
