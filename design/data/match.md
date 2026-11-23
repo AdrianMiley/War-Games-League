@@ -4,7 +4,9 @@ layout: default
 parent: Integrated Domain Model
 nav_order: 4
 ---
-#   Match Domain Model 
+#   Match
+
+##   Match Domain Model 
 
 ```mermaid
 ---
@@ -37,6 +39,7 @@ classDiagram
         Arranged
         Played
         Completed
+        Cancelled
     }
 ```
 Validation Rules:
@@ -46,3 +49,19 @@ Validation Rules:
 -    When number of Match::results is 0 then Match.status is Arranged
 -    When number of Match::results is greater than 0 then  Match.status is Played
 -    When number of Match::results equals number of Match::participants then Match.status is Completed.
+
+##  State Machine
+
+```mermaid
+---
+title: Match State Machine
+---
+stateDiagram-v2
+    [*] --> Arranged : arrangeMatch
+    Arranged --> Played : recordResult
+    Played --> Completed : updateLeague
+    Arranged --> Arranged : addParticipant
+    Completed --> [*]
+    Arranged --> Cancelled : cancelMatch
+    Cancelled --> [*]
+```

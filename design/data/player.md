@@ -23,6 +23,7 @@ classDiagram
         String contactDetails
         String membershipNumber <<optional>>
         Date dateRegistered
+        PlayerStatus status := Active
     }
 
     class RegisteredGame {
@@ -43,4 +44,29 @@ classDiagram
         4 : "Advanced"
         5 : "Expert"
     }
+    class PlayerStatus {
+        <<enumeration>>
+        Active
+        Inactive
+        Deleted
+    }
+```
+
+##  State Machine
+
+```mermaid
+---
+title: Match State Machine
+---
+stateDiagram-v2
+    direction LR
+    state Registered {
+        Active
+        Inactive
+    }
+    [*] --> Registered : registerPlayer
+    Active --> Inactive : deactivatePlayer
+    Inactive --> Active : activatePlayer
+    Registered --> Registered : amendRegisteredGame
+    Registered --> [*] : deletePlayer
 ```
