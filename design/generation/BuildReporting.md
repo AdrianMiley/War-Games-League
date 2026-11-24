@@ -20,3 +20,4 @@ from LeagueTable
    , LeagueTable.won,drawn,lost,proficiencyPoints,handicapPoints,totalPoints 
 where LeaguePosition.PlayerID = Player.ID
 order by LeaguePosition ascending
+
