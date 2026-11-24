@@ -9,6 +9,7 @@ nav_order: 1
 The Master Builder provides the instructions for building the entire application from the component build files in the correct dependency order.
 
 - [BuildResultsDatabase.md](BuildLeagueDatabase.md)
+- [CreateOperations.md](CreateOperations.md)
 - [BuildPlayerRegistration.md](BuildPlayerRegistration.md)
 - [BuildReporting.md](BuildReporting.md)
 - [BuildUserInterface.md](BuildUserInterface.md)

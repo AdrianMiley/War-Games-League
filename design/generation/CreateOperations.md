@@ -1,3 +1,12 @@
+---
+title:  Create Operations
+layout: default
+parent: Master Builder
+nav_order: 
+---
+#   Create Operations
+
+The intent of this script is to generate specifications for each of the State Machine Transitions specified in the Integrated Domain Model.
 
 From the State Machines defined in design/data files create MD files in design/operations folder for each transition message where file does not already exist. Create textual specification of what needs to be done to process input data to complete that operation.
 
