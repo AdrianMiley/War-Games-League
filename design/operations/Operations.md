@@ -1,4 +1,4 @@
---
+---
 title: Operations
 layout: default
 parent: Games League Design
