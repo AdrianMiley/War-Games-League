@@ -1,7 +1,7 @@
 ---
-title: Master Builder
+title: Application Master Builder
 layout: default
-parent: Games League Design
+parent: Games League Generation
 nav_order: 1
 ---
 #   Master Builder
