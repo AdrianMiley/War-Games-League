@@ -1,8 +1,8 @@
 ---
 title: Application Master Builder
 layout: default
-parent: Games League Generation
-nav_order: 1
+parent: Generation Scripts
+nav_order: 2
 ---
 #   Master Builder
 

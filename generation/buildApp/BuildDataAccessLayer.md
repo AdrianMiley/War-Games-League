@@ -1,7 +1,7 @@
 ---
-title:  Build Database
+title:  Build Data Access Layer
 layout: default
-parent: Master Builder
+parent: Application Master Builder
 nav_order: 10
 ---
 #   Build Database

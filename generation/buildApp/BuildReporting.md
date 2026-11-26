@@ -1,7 +1,7 @@
 ---
 title:  Build Reporting
 layout: default
-parent: Master Builder
+parent: Application Master Builder
 nav_order: 90
 ---
 #   Build Reporting

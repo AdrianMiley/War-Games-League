@@ -1,7 +1,7 @@
 ---
 title:  Technical Requirements
 layout: default
-parent: Master Builder
+parent: Application Master Builder
 nav_order: 5
 ---
 #   Technical Requirements

@@ -1,7 +1,7 @@
 ---
 title:  Build User Interface
 layout: default
-parent: Master Builder
+parent: Application Master Builder
 nav_order: 99
 ---
 #   Build User Interface

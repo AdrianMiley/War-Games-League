@@ -1,6 +1,7 @@
 ---
-title:  Build Database
+title:  Create Domain Model
 layout: default
-parent: Master Builder
+parent: Specifications Master Builder
 nav_order: 10
 ---
+#   Create Domain Model

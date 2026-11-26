@@ -1,7 +1,7 @@
 ---
 title:  Build Database
 layout: default
-parent: Create Specifications
+parent: Specifications Master Builder
 nav_order: 10
 ---
 ##  Creating Test Data

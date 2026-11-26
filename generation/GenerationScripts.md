@@ -1,9 +1,9 @@
 ---
-title: Games League Generation
+title: Generation Scripts
 layout: default
 nav_order: 9
 ---
-#   Games League Generation
+#   Generation Scripts
 
 ```mermaid
 ---
